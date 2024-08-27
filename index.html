@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <title>Aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Estava eu numa biblioteca da cidade, quando encontrei debaixo de uma estante, um livro empoeirado, resolvi pegar e ler, quando abri o livro, mergulhei em uma avetura e precisava fazer as escolhas certas para escapar, e então, me deparo com dois caminhos...</p>
+            <button class="btn-proximo" data-proximo="1">Floresta</button>
+            <button class="btn-proximo" data-proximo="2">Cachoeira</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao entrar na floresta, me deparo com um rio.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o rio</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao se aproximar da cachoeira, novamente se depara com dois caminhos: </p>
+            <button class="btn-proximo" data-proximo="5">dar a volta na cachoeira</button>
+            <button class="btn-proximo" data-proximo="6">escalar até o rio da cachoeira</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Após uma longa caminhada pela margem do rio, você se depara com um belissimo monumento antigo. </p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Monumento</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="">
+            <p>Você decide que a aventura é grande demais para você, e resolve voltar para casa, desistindo de sua leitura.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Após uma longa caminhada em volta da cachoeira, você se depara com um belissimo monumento antigo.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Monumento</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Em sua tentativa de escalar as pedras molhadas e escorregadias da cachoeira, você falha mizerávelmente e escorrega, ao cair, você acorda em um pulo, e então frustrado, resolve desistir de sua leitura.</p>
+            
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao chegar perto do Monumento, você percebe o quão assustador são essas ruinas, mas você precisa se decidir.</p>
+            <button class="btn-proximo" data-proximo="9">Subir as longas escadas do Monumento</button>
+            <button class="btn-proximo" data-proximo="10">Desistir</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p></p>
+            <button class="btn-proximo" data-proximo="7"></button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao subir no Monumento, você se depara com algo que te faz sentir que valeu a pena enfrentar tais desafios para chegar até lá, você então recebe o bem mais precioso que alguém pode ter, o CONHECIMENTO, e então, retorna para casa orgulhoso de si mesmo e finaiza a sua leitura.</p>
+            
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você fica com medo do monumento, e vai embora, desistindo de sua leitura.</p>
+            
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="">
+            <p></p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p></p>
+            <button class="btn-proximo" data-proximo="11"></button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
